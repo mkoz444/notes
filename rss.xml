@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title></title>
+        <link>undefined</link>
+        <description>undefined</description>
+        <lastBuildDate>Mon, 02 Jan 2023 10:09:01 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[1. Welcome to Joplin!]]></title>
+            <guid>a79c80bdce3c4471b4920e0748f028bf</guid>
+            <pubDate>Thu, 29 Dec 2022 16:32:37 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="welcome-to-joplin">Welcome to Joplin!</h1>
+<p>Joplin is a free, open source note taking and to-do application, which helps you write and organise your notes, and synchronise them between your devices. The notes are searchable, can be copied, tagged and modified either from the application directly or from your own text editor. The notes are in <a title="https://joplinapp.org/help/#markdown" href="https://joplinapp.org/help/#markdown">Markdown format</a>. Joplin is available as a <strong>desktop</strong>, <strong>mobile</strong> and <strong>terminal</strong> application.</p>
+<p>The notes in this notebook give an overview of what Joplin can do and how to use it. In general, the three applications share roughly the same functionalities; any differences will be clearly indicated.</p>
+<p><img src="/_resources/62a39c63478e47fa88326d463f243631.png" /></p>
+<h2 id="joplin-is-divided-into-three-parts">Joplin is divided into three parts</h2>
+<p>Joplin has three main columns:</p>
+<ul>
+<li>
+<p><strong>Sidebar</strong> contains the list of your notebooks and tags, as well as the synchronisation status.</p>
+</li>
+<li>
+<p><strong>Note List</strong> contains the current list of notes - either the notes in the currently selected notebook, the notes in the currently selected tag, or search results.</p>
+</li>
+<li>
+<p><strong>Note Editor</strong> is the place where you write your notes. There is a <strong>Rich Text editor</strong> and a <strong>Markdown editor</strong> - click on the <strong>Toggle editor</strong> button in the top right hand corner to switch between both! You may also use an <a title="https://joplinapp.org/help/#external-text-editor" href="https://joplinapp.org/help/#external-text-editor">external editor</a> to edit notes. For example you can use Typora as an external editor and it will display the note as well as any embedded images.</p>
+</li>
+</ul>
+<h2 id="writing-notes-in-markdown">Writing notes in Markdown</h2>
+<p>Markdown is a lightweight markup language with plain text formatting syntax. Joplin supports a <a title="https://joplinapp.org/markdown/" href="https://joplinapp.org/markdown/">Github-flavoured Markdown syntax</a> with a few variations and additions.</p>
+<p>In general, while Markdown is a markup language, it is meant to be human readable, even without being rendered. This is a simple example (you can see how it looks in the viewer panel):</p>
+<hr />
+<h1 id="heading">Heading</h1>
+<h2 id="sub-heading">Sub-heading</h2>
+<p>Paragraphs are separated by a blank line. Text attributes <em>italic</em>, <strong>bold</strong> and <code>monospace</code> are supported. You can create bullet lists:</p>
+<ul>
+<li>apples</li>
+<li>oranges</li>
+<li>pears</li>
+</ul>
+<p>Or numbered lists:</p>
+<ol>
+<li>wash</li>
+<li>rinse</li>
+<li>repeat</li>
+</ol>
+<p>This is a <a title="https://joplinapp.org" href="https://joplinapp.org">link</a> and, finally, below is a horizontal rule:</p>
+<hr />
+<p>A lot more is possible including adding code samples, math formulae or checkbox lists - see the <a title="https://joplinapp.org/help/#markdown" href="https://joplinapp.org/help/#markdown">Markdown documentation</a> for more information.</p>
+<h2 id="organising-your-notes">Organising your notes</h2>
+<h3 id="with-notebooks">With notebooks</h3>
+<p>Joplin notes are organised into a tree of notebooks and sub-notebooks.</p>
+<ul>
+<li>On <strong>desktop</strong>, you can create a notebook by clicking on New Notebook, then you can drag and drop them into other notebooks to organise them as you wish.</li>
+<li>On <strong>mobile</strong>, press the "+" icon and select "New notebook".</li>
+<li>On <strong>terminal</strong>, press <code>:mn</code></li>
+</ul>
+<p><img src="/_resources/13ff682dc8d84850bd9568aac5786e67.png" /></p>
+<h3 id="with-tags">With tags</h3>
+<p>The second way to organise your notes is using tags:</p>
+<ul>
+<li>On <strong>desktop</strong>, right-click on any note in the Note List, and select "Edit tags". You can then add the tags, separating them by commas.</li>
+<li>On <strong>mobile</strong>, open the note and press the "⋮" button and select "Tags".</li>
+<li>On <strong>terminal</strong>, type <code>:help tag</code> for the available commands.</li>
+</ul>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[2. Importing and exporting notes]]></title>
+            <guid>179f7e70f0414ee8becbc069723308ed</guid>
+            <pubDate>Thu, 29 Dec 2022 16:32:37 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="importing-and-exporting-notes">Importing and exporting notes</h1>
+<h2 id="importing-from-evernote">Importing from Evernote</h2>
+<p>Joplin can import complete Evernote notebooks, as well as notes, tags, images, attached files and note metadata (such as author, geo-location, etc.) via ENEX files.</p>
+<p>To import Evernote data, first export your Evernote notebooks to ENEX files as described <a title="https://help.evernote.com/hc/en-us/articles/209005557-How-to-back-up-export-and-restore-import-notes-and-notebooks" href="https://help.evernote.com/hc/en-us/articles/209005557-How-to-back-up-export-and-restore-import-notes-and-notebooks">here</a>. Then, on <strong>desktop</strong>, do the following: Open File &gt; Import &gt; ENEX and select your file. The notes will be imported into a new separate notebook. If needed they can then be moved to a different notebook, or the notebook can be renamed, etc. Read <a title="https://joplinapp.org/help/#importing-from-evernote" href="https://joplinapp.org/help/#importing-from-evernote">more about Evernote import</a>.</p>
+<h1 id="importing-from-other-apps">Importing from other apps</h1>
+<p>Joplin can also import notes from <a title="https://github.com/laurent22/joplin#importing-from-other-applications" href="https://github.com/laurent22/joplin#importing-from-other-applications">many other apps</a> as well as <a title="https://github.com/laurent22/joplin#importing-from-markdown-files" href="https://github.com/laurent22/joplin#importing-from-markdown-files">from Markdown or text files</a>.</p>
+<h1 id="exporting-notes">Exporting notes</h1>
+<p>Joplin can export to the JEX format (Joplin Export file), which is an archive that can contain multiple notes, notebooks, etc. This is a format mostly designed for backup purposes. You may also export to other formats such as plain Markdown files, to JSON or to PDF. Find out <a title="https://github.com/laurent22/joplin#exporting" href="https://github.com/laurent22/joplin#exporting">more about exporting notes</a> on the official website.</p>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
